@@ -32,38 +32,6 @@
 				<string>#212121</string>
 				<key>selection</key>
 				<string>#8a330f</string>
-				<key>ansiBlack</key>
-				<string>#141414</string>
-				<key>ansiRed</key>
-				<string>#dc322f</string>
-				<key>ansiGreen</key>
-				<string>#859900</string>
-				<key>ansiYellow</key>
-				<string>#b58900</string>
-				<key>ansiBlue</key>
-				<string>#268bd2</string> <!-- blue -->
-				<key>ansiMagenta</key>
-				<string>#d33682</string>
-				<key>ansiCyan</key>
-				<string>#2aa198</string>
-				<key>ansiWhite</key>
-				<string>#93a1a1</string> <!-- base1 -->
-				<!--<key>ansiBrightBlack</key>
-				<string>#</string>
-				<key>ansiBrightRed</key>
-				<string>#</string>
-				<key>ansiBrightGreen</key>
-				<string>#</string>
-				<key>ansiBrightYellow</key>
-				<string>#cb4b16</string>
-				<key>ansiBrightBlue</key>
-				<string>#</string>
-				<key>ansiBrightMagenta</key>
-				<string>#</string>
-				<key>ansiBrightCyan</key>
-				<string>#</string>-->
-				<key>ansiBrightWhite</key>
-				<string>#eee8d5</string> <!-- base2 -->
 			</dict>
 		</dict>
 
@@ -81,6 +49,7 @@
 				<string>#586e75</string> <!-- base01 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>String</string>
@@ -92,6 +61,7 @@
 				<string>#2aa198</string> <!-- cyan -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Regexp</string>
@@ -103,6 +73,7 @@
 				<string>#6c71c4</string> <!-- violet -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Number</string>
@@ -114,17 +85,38 @@
 				<string>#d33682</string> <!--magenta-->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, meta.definition.variable variable.other</string>
+			<string>
+				variable.language,
+				meta.definition.variable variable.other,
+				variable.other.object,
+				variable.other.property
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Variable property</string>
+			<key>scope</key>
+			<string>
+				variable.other.property
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839496</string> <!-- base0 -->
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
@@ -138,6 +130,7 @@
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
@@ -151,6 +144,7 @@
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Class name</string>
@@ -164,6 +158,7 @@
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Function name</string>
@@ -177,6 +172,7 @@
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Variable start</string>
@@ -188,6 +184,7 @@
 				<string>#859900</string> <!-- green -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Embedded code markers</string>
@@ -199,6 +196,7 @@
 				<string>#dc322f</string> <!--red-->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -210,6 +208,7 @@
 				<string>#b58900</string> <!-- base01 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Support.construct</string>
@@ -223,6 +222,7 @@
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>User-defined constant</string>
@@ -234,6 +234,7 @@
 				<string>#cb4b16</string> <!-- orange -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Inherited class</string>
@@ -245,6 +246,7 @@
 				<string>#6c71C4</string> <!-- violet -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Function argument</string>
@@ -256,6 +258,7 @@
 				<string>#cb4b16</string> <!-- orange -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Tag name</string>
@@ -267,6 +270,7 @@
 				<string>#268bd2</string> <!-- blue -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Tag start/end</string>
@@ -278,6 +282,7 @@
 				<string>#657b83</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Tag attribute</string>
@@ -289,6 +294,7 @@
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Library function</string>
@@ -300,6 +306,7 @@
 				<string>#b58900</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Continuation</string>
@@ -311,6 +318,7 @@
 				<string>#d30102</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Library constant</string>
@@ -319,6 +327,7 @@
 			<key>settings</key>
 			<dict/>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Library class/type</string>
@@ -330,6 +339,7 @@
 				<string>#859900</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Library Exception</string>
@@ -341,6 +351,7 @@
 				<string>#cb4b16</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Library variable</string>
@@ -349,6 +360,7 @@
 			<key>settings</key>
 			<dict/>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Invalid</string>
@@ -369,6 +381,7 @@
 				<string>#859900</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Markup Lists</string>
@@ -380,6 +393,7 @@
 				<string>#b58900</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Markup Styling</string>
@@ -391,6 +405,7 @@
 				<string>#d33682</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Markup Inline</string>
@@ -404,6 +419,7 @@
 				<string>#2aa198</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Markup Headings</string>
@@ -415,6 +431,7 @@
 				<string>#268bd2</string> <!-- blue -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Markup Setext Header</string>
@@ -443,6 +460,7 @@
 				<string>#657b83</string> <!-- base00 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>JSDoc variable</string>
@@ -471,6 +489,7 @@
 				<string>#657b83</string> <!-- base0 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Type primitive</string>
@@ -484,6 +503,7 @@
 				<string>#657b83</string> <!-- base0 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Function call</string>
@@ -496,6 +516,7 @@
 				<string>#b58900</string> <!-- yellow -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Method declaration</string>
@@ -509,6 +530,7 @@
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Funtion call</string>
@@ -523,6 +545,7 @@
 				<string>#b58900</string> <!-- yellow -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Method parameter</string>
@@ -534,6 +557,7 @@
 				<string>#cb4b16</string> <!-- orange -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Decorator</string>
@@ -545,6 +569,7 @@
 				<string>#859900</string> <!-- green -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Variable: this</string>
@@ -561,6 +586,7 @@
 				<string>#268bd2</string> <!-- blue -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
@@ -573,6 +599,52 @@
 				<key>foreground</key>
 				<string>#93a1a1</string> <!-- base1 -->
 			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Template string</string>
+			<key>scope</key>
+			<string>string.template</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#2aa198</string> <!-- cyan -->
+				</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Template string definition punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.template-expression</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#859900</string> <!-- violet -->
+				</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Template string variable</string>
+			<key>scope</key>
+			<string>
+				string.template variable.other.readwrite,
+				string.template variable.other.object,
+				string.template support.variable.property.dom
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#2aa198</string> <!-- cyan -->
+				</dict>
 		</dict>
 
 		<dict>
@@ -595,7 +667,21 @@
 			</dict>
 		</dict>
 
-		<!-- JavaScript -->
+		<dict>
+			<key>name</key>
+			<string>Console class</string>
+			<key>scope</key>
+			<string>support.class.console</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#268bd2</string>
+			</dict>
+		</dict>
+
+		<!-- JavaScript specific -->
 		<dict>
 			<key>name</key>
 			<string>Function call</string>
@@ -607,6 +693,7 @@
 				<string>#b58900</string> <!-- yellow -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Function declaration</string>
@@ -620,6 +707,7 @@
 				<string>#268bd2</string> <!-- yellow -->
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Function parameter</string>
