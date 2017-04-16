@@ -656,6 +656,8 @@
 				keyword.operator.ternary,
 				keyword.operator.assignment,
 				keyword.operator.arithmetic,
+				keyword.operator.increment,
+				keyword.operator.decrement,
 				punctuation.terminator.statement
 			</string>
 			<key>settings</key>
