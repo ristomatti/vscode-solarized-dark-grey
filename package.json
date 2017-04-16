@@ -20,6 +20,11 @@
                 "label": "Solarized Dark Grey Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/SolarizedDarkGrey.tmTheme"
+            },
+            {
+                "label": "Solarized Black Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/SolarizedBlack.tmTheme"
             }
         ]
     },

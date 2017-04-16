@@ -14,14 +14,14 @@
 
 <dict>
 	<key>name</key>
-	<string>Solarized Dark Grey</string>
+	<string>Solarized Black</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#141414</string>
+				<string>#101010</string>
 				<key>caret</key>
 				<string>#eee8d5</string>
 				<key>foreground</key>
@@ -58,7 +58,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c71c4</string> <!-- violet -->
+				<string>#2aa198</string> <!-- cyan -->
 			</dict>
 		</dict>
 
@@ -416,7 +416,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#2aa198</string> <!-- cyann -->
+				<string>#2aa198</string>
 			</dict>
 		</dict>
 
@@ -581,9 +581,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string>normal</string>
 				<key>foreground</key>
-				<string>#93a1a1</string> <!-- base1 -->
+				<string>#268bd2</string> <!-- blue -->
 			</dict>
 		</dict>
 
