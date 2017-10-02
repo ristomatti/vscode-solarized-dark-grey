@@ -537,7 +537,9 @@
 			<key>scope</key>
 			<string>
 				meta.block.ts entity.name.function.ts,
-				meta.block.js entity.name.function.js
+				meta.block.js entity.name.function.js,
+				entity.name.function.jsx,
+				entity.name.function.tsx
 			</string>
 			<key>settings</key>
 			<dict>
@@ -576,7 +578,9 @@
 			<key>scope</key>
 			<string>
 				meta.block variable.language.this.ts,
-				meta.block variable.language.this.js
+				meta.block variable.language.this.js,
+				variable.language.this.jsx,
+				variable.language.this.tsx
 			</string>
 			<key>settings</key>
 			<dict>
@@ -646,26 +650,39 @@
 				<string>#2aa198</string> <!-- cyan -->
 				</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>Symbols</string>
+			<string>Template string variable</string>
 			<key>scope</key>
 			<string>
-				storage.type.function.arrow,
-				keyword.operator.ternary,
-				keyword.operator.assignment,
-				keyword.operator.arithmetic,
-				keyword.operator.increment,
-				keyword.operator.decrement,
-				punctuation.terminator.statement
+				string.template variable.other.readwrite,
+				string.template variable.other.object,
+				string.template support.variable.property.dom
 			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#93a1a1</string> <!-- base1 -->
+				<string>#2aa198</string> <!-- cyan -->
+				</dict>
+		</dict>
+
+
+		<dict>
+			<key>name</key>
+			<string>JSX/TSX component</string>
+			<key>scope</key>
+			<string>
+				support.class.component.jsx,
+				support.class.component.tsx
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#d33682</string> <!-- magenta -->
 			</dict>
 		</dict>
 
