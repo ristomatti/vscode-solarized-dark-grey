@@ -58,14 +58,14 @@
 		},
 		{
 			"name": "Variable",
-			"scope": "\n\t\t\t\tvariable.language,\n\t\t\t\tmeta.definition.variable variable.other,\n\t\t\t\tvariable.other.object,\n\t\t\t\tvariable.other.property\n\t\t\t",
+			"scope": "variable.language, meta.definition.variable variable.other, variable.other.object, variable.other.property",
 			"settings": {
 				"foreground": "#93a1a1"
 			}
 		},
 		{
 			"name": "Variable property",
-			"scope": "\n\t\t\t\tvariable.other.property\n\t\t\t",
+			"scope": "variable.other.property",
 			"settings": {
 				"foreground": "#839496"
 			}
@@ -290,7 +290,7 @@
 		},
 		{
 			"name": "Function call",
-			"scope": "\n\t\t\t\tsupport.function.dom.js",
+			"scope": "support.function.dom.js",
 			"settings": {
 				"foreground": "#b58900"
 			}
@@ -305,7 +305,7 @@
 		},
 		{
 			"name": "Funtion call",
-			"scope": "\n\t\t\t\tmeta.block.ts entity.name.function.ts,\n\t\t\t\tmeta.block.js entity.name.function.js,\n\t\t\t\tentity.name.function.jsx,\n\t\t\t\tentity.name.function.tsx\n\t\t\t",
+			"scope": "meta.block.ts entity.name.function.ts, meta.block.js entity.name.function.js, entity.name.function.jsx, entity.name.function.tsx",
 			"settings": {
 				"foreground": "#b58900"
 			}
@@ -326,7 +326,7 @@
 		},
 		{
 			"name": "Variable: this",
-			"scope": "\n\t\t\t\tmeta.block variable.language.this.ts,\n\t\t\t\tmeta.block variable.language.this.js,\n\t\t\t\tvariable.language.this.jsx,\n\t\t\t\tvariable.language.this.tsx\n\t\t\t",
+			"scope": "meta.block variable.language.this.ts, meta.block variable.language.this.js, variable.language.this.jsx, variable.language.this.tsx",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#93a1a1"
@@ -355,21 +355,21 @@
 		},
 		{
 			"name": "Template string variable",
-			"scope": "\n\t\t\t\tstring.template variable.other.readwrite,\n\t\t\t\tstring.template variable.other.object,\n\t\t\t\tstring.template support.variable.property.dom\n\t\t\t",
+			"scope": "string.template variable.other.readwrite, string.template variable.other.object, string.template support.variable.property.dom",
 			"settings": {
 				"foreground": "#2aa198"
 			}
 		},
 		{
 			"name": "Template string variable",
-			"scope": "\n\t\t\t\tstring.template variable.other.readwrite,\n\t\t\t\tstring.template variable.other.object,\n\t\t\t\tstring.template support.variable.property.dom\n\t\t\t",
+			"scope": "string.template variable.other.readwrite, string.template variable.other.object, string.template support.variable.property.dom",
 			"settings": {
 				"foreground": "#2aa198"
 			}
 		},
 		{
 			"name": "JSX/TSX component",
-			"scope": "\n\t\t\t\tsupport.class.component.jsx,\n\t\t\t\tsupport.class.component.tsx\n\t\t\t",
+			"scope": "support.class.component.jsx, support.class.component.tsx",
 			"settings": {
 				"foreground": "#d33682"
 			}
