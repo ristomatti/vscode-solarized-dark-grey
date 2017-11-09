@@ -1,34 +1,38 @@
 {
-	"name": "vscode-solarized-dark-grey",
-	"displayName": "Solarized Dark Grey",
-	"description": "Solarized Dark Grey theme for Visual Studio Code",
-	"version": "0.0.4",
-	"publisher": "ristomatti",
-	"engines": {
-		"vscode": "^1.18.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Solarized Dark Grey",
-				"uiTheme": "vs-dark",
-				"path": "./themes/SolarizedDarkGrey-color-theme.json"
-			}
-		]
-	},
-	"galleryBanner": {
-		"color": "#141414",
-		"theme": "dark"
-	},
-	"homepage": "https://github.com/ristomatti/vscode-solarized-dark-grey#readme",
-	"license": "MIT",
-	"author": "Ristomatti Airo <ristomatti@kallio.io>",
-	"__metadata": {
-		"id": "376be52d-9bee-4129-8248-7732d65a94e1",
-		"publisherDisplayName": "Ristomatti Airo",
-		"publisherId": "38365db9-c93e-4f80-9504-425d7a0fa9ca"
-	}
+    "name": "vscode-solarized-dark-grey",
+    "displayName": "Solarized Dark Grey",
+    "description": "Solarized Dark Grey theme for Visual Studio Code",
+    "version": "0.0.5",
+    "publisher": "ristomatti",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Dark Grey",
+                "uiTheme": "vs-dark",
+                "path": "./themes/SolarizedDarkGrey-color-theme.json"
+            }
+        ]
+    },
+    "galleryBanner": {
+        "color": "#141414",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/ristomatti/vscode-solarized-dark-grey#readme",
+    "license": "MIT",
+    "author": "Ristomatti Airo <ristomatti@kallio.io>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ristomatti/vscode-solarized-dark-grey.git"
+    },
+    "__metadata": {
+        "id": "376be52d-9bee-4129-8248-7732d65a94e1",
+        "publisherDisplayName": "Ristomatti Airo",
+        "publisherId": "38365db9-c93e-4f80-9504-425d7a0fa9ca"
+    }
 }
