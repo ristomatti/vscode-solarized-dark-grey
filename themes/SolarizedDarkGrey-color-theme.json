@@ -425,6 +425,42 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
+		},
+		{
+			"name": "C types",
+			"scope": "support.type.stdint.c, support.type.posix-reserved.c",
+			"settings":{
+				"foreground": "#93a1a1",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "C types",
+			"scope": "entity.name.type.cpp, meta.function.constructor.cpp entity.name.function.cpp",
+			"settings":{
+				"foreground": "#cb4b16"
+			}
+		},
+		{
+			"name": "C types",
+			"scope": "meta.function.c",
+			"settings":{
+				"foreground": "#93a1a1"
+			}
+		},
+		{
+			"name": "C function name",
+			"scope": "support.class.cpp.arduino",
+			"settings":{
+				"foreground": "#93a1a1"
+			}
+		},
+		{
+			"name": "C function name",
+			"scope": "entity.name.function.c",
+			"settings":{
+				"foreground": "#b58900"
+			}
 		}
 	]
 }
