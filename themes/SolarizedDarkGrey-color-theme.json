@@ -112,7 +112,7 @@
 			"name": "Embedded code markers",
 			"scope": "punctuation.section.embedded.begin, punctuation.section.embedded.end",
 			"settings": {
-				"foreground": "#dc322f"
+				"foreground": "#93a1a1"
 			}
 		},
 		{
