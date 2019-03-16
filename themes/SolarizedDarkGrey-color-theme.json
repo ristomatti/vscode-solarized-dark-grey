@@ -10,6 +10,7 @@
 		"editorLineNumber.foreground": "#3f3f3f",
 		"editorWhitespace.foreground": "#93a1a180",
 		"tab.border": "#212121",
+		"scrollbarSlider.background": "#292929",
 		"statusBar.foreground": "#eee8d5",
 		"statusBar.background": "#252526",
 		"sideBar.background": "#222222",
