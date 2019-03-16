@@ -7,6 +7,7 @@
 		"editor.selectionBackground": "#8a330f",
 		"editor.lineHighlightBackground": "#212121",
 		"editorCursor.foreground": "#eee8d5",
+		"editorLineNumber.foreground": "#3f3f3f",
 		"editorWhitespace.foreground": "#93a1a180",
 		"tab.border": "#212121",
 		"statusBar.foreground": "#eee8d5",
