@@ -20,7 +20,8 @@
 		"terminal.ansiBrightGreen": "#859900",
 		"terminal.ansiBrightBlue": "#268bd2",
 		"gitDecoration.modifiedResourceForeground": "#b58900",
-		"gitDecoration.untrackedResourceForeground": "#859900"
+		"gitDecoration.untrackedResourceForeground": "#859900",
+		"gitDecoration.ignoredResourceForeground": "#999999",
 	},
 	"tokenColors": [
 		{
