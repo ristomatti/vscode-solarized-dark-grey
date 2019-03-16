@@ -23,6 +23,7 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "*",
 			"settings": {
 				"foreground": "#93a1a1ff"
 			}
