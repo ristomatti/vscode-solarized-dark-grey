@@ -6,8 +6,7 @@ Solarized Dark Grey theme for Visual Studio Code
 
 Version | Summary
 ------- | -------
-0.4.0   | Improve C/C++ syntax, add Mermaid support, change primary background color to
-          a slightly brighter #181818.
+0.4.1   | Improve C/C++ syntax, add Mermaid support, change primary background color to a slightly brighter #181818.
 0.3.2   | Improve C/C++ syntax
 0.3.1   | Add support for C/C++ syntax
 0.2.x   | Initial publish to Marketplace
