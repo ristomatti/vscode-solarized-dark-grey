@@ -2,7 +2,7 @@
     "name": "vscode-solarized-dark-grey",
     "displayName": "Solarized Dark Grey",
     "description": "Solarized Dark Grey theme for Visual Studio Code",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "publisher": "ristomatti",
     "engines": {
         "vscode": "^1.50.0"
