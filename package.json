@@ -2,10 +2,10 @@
     "name": "vscode-solarized-dark-grey",
     "displayName": "Solarized Dark Grey",
     "description": "Solarized Dark Grey theme for Visual Studio Code",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "publisher": "ristomatti",
     "engines": {
-        "vscode": "^1.18.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
         "Themes"
@@ -25,7 +25,7 @@
     },
     "homepage": "https://github.com/ristomatti/vscode-solarized-dark-grey#readme",
     "license": "MIT",
-    "author": "Ristomatti Airo <ristomatti@kallio.io>",
+    "author": "Ristomatti Airo <ristomatti.airo@gmail.com>",
     "repository": {
         "type": "git",
         "url": "https://github.com/ristomatti/vscode-solarized-dark-grey.git"
