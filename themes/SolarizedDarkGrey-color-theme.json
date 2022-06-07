@@ -2,7 +2,7 @@
 	"name": "Solarized Dark Grey",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#141414",
+		"editor.background": "#181818",
 		"editor.foreground": "#93a1a1",
 		"editor.selectionBackground": "#8a330f",
 		"editor.lineHighlightBackground": "#212121",
@@ -433,13 +433,13 @@
 		{
 			"scope": "support.type.stdint.c, support.type.posix-reserved.c",
 			"settings":{
-				"foreground": "#859900"
+				"foreground": "#cb4b16"
 			}
 		},
 		{
 			"scope": "entity.name.type.cpp, meta.function.constructor.cpp entity.name.function.cpp",
 			"settings":{
-				"foreground": "#cb4b16"
+				"foreground": "#b58900"
 			}
 		},
 		{
@@ -455,8 +455,62 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.c",
+			"scope": "meta.function-call.c entity.name.function.c",
 			"settings":{
+				"foreground": "#b58900"
+			}
+		},
+		{
+			"scope": "meta.function.c entity.name.function.c",
+			"settings":{
+				"foreground": "#b58900"
+			}
+		},
+		{
+			"scope": "support.function.C99.c",
+			"settings":{
+				"foreground": "#b58900"
+			}
+		},
+		{
+			"scope": "constant.language.c",
+			"settings":{
+				"foreground": "#2aa198"
+			}
+		},
+		{
+			"scope": "constant.other.placeholder.c",
+			"settings": {
+				"foreground": "#d33682"
+			}
+		},
+		{
+			"scope": "constant.character.escape.cpp",
+			"settings": {
+				"foreground": "#d33682",
+			}
+		},
+		{
+			"scope": "entity.name.function.preprocessor.c",
+			"settings": {
+				"foreground": "#839496"
+			}
+		},
+		{
+			"scope": "entity.name.type.class.mermaid",
+			"settings": {
+				"foreground": "#cb4b16"
+			}
+		},
+		{
+			"scope": "entity.name.function.mermaid",
+			"settings": {
+				"foreground": "#b58900"
+			}
+		},
+		{
+			"scope": "storage.type.mermaid",
+			"settings": {
 				"foreground": "#b58900"
 			}
 		}
